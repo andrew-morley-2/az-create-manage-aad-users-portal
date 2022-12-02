@@ -21,45 +21,41 @@ Azure Active Directory (AD) is often a critical component in many cloud-based Az
 <h2>Walkthrough:</h2>
 
 <p align="center">
-<b>Add Tags to the Resource Group</b>
+
+<b>Create Azure AD User Accounts</b>
 <br/>
 <br/>
-- In Azure Cloud Shell, perform the command to list all resource groups for this lab.
+- In the Azure portal, within the Azure Active Directory service, create two new user accounts.
 <br/>
-- Perform the CLI command that will apply the following tags to the resource group (replace YourName with your name):
-Environment=Production
-Dept=IT
-CreatedBy=YourName <br/>
 <img src="https://i.imgur.com/ulQwtCB.jpeg" height="80%" width="80%" alt="Add, Remove and Update Tags for Resources in Azure 1.1"/>
 <br />
 <br />
 
-<b>Remove Tags for VM and Mark for Deletion</b>
+<b>Modify an Azure AD User Account</b>
 <br />
 <br />
-- Perform the CLI command to list the existing tags for the virtual machines in this lab.
+- In the Azure portal, within the Azure Active Directory service, modify one of the new user accounts you created. Then, reset the account's password using the Reset Password feature.
 <br/>
-- Remove the existing tags from the VM.
-<img src="https://i.imgur.com/QJ8f60o.jpeg" height="80%" width="80%" alt="Add, Remove and Update Tags for Resources in Azure 2.1"/>
-<br/>
-<br/>
-- Mark the VM for deletion by adding the tag MarkForDeletion=Yes.
-CreatedBy=YourName <br/>
 <img src="https://i.imgur.com/830eDEy.jpeg" height="80%" width="80%" alt="Add, Remove and Update Tags for Resources in Azure 2.2"/>
 <br />
 <br />
 
-<b>Change Tags for the Virtual Network</b>
+<b>Revoke Access to an Azure AD User Account</b>
 <br/>
 <br/>
-- Perform the CLI command to list the virtual networks and their associated tags
+- In the Azure portal, within the Azure Active Directory service, block and revoke access for one of the new user accounts you created.
 <br/>
-- Perform the CLI command to overrite the existing tags with the following tags (replace YourName with your name):
-Environment=Production
-Dept=IT
-CreatedBy=YourName
-Dept=IT
-CreatedBy=YourName <br/>
+<img src="https://i.imgur.com/830eDEy.jpeg" height="80%" width="80%" alt="Add, Remove and Update Tags for Resources in Azure 3.1"/>
+<br/>
+<br/>
+
+<b>Delete an Azure AD User Account</b>
+<br/>
+<br/>
+- In the Azure portal, within the Azure Active Directory service, delete one of the new user accounts you created.
+<br/>
+Note: You can also restore or permanently delete the user from the Deleted users section.
+<br/>
 <img src="https://i.imgur.com/830eDEy.jpeg" height="80%" width="80%" alt="Add, Remove and Update Tags for Resources in Azure 3.1"/>
 
 </p>
