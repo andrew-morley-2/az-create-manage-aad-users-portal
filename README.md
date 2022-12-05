@@ -5,7 +5,7 @@
  --!>
 
 <h2>Description</h2>
-Azure Active Directory (AD) is often a critical component in many cloud-based Azure solutions. With Azure AD you have a centralized identity and access management platform, which helps for much more than simply storing user details and credentials. In this project, we'll walk through some of the very basic administration tasks that one may perform when managing user accounts within Azure AD.
+Azure Active Directory (AD) is often a critical component in many cloud-based Azure solutions. With Azure AD you have a centralized identity and access management platform, which helps for much more than simply storing user details and credentials. In this lab, we'll walk through some of the very basic administration tasks that one may perform when managing user accounts within Azure AD.
 <br />
 <br />
 Consider the following scenario:
